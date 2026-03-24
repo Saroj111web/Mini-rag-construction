@@ -4,7 +4,7 @@ import faiss
 from PyPDF2 import PdfReader
 from sentence_transformers import SentenceTransformer
 import requests
-
+st.secrets["OPENROUTER_API_KEY"]
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 OPENROUTER_API_KEY = "YOUR_OPENROUTER_API_KEY"
 
